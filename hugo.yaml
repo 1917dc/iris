@@ -39,8 +39,8 @@ params:
     displayTitle: true
     displayLogo: true
     logo:
-      path: images/logo-iris.svg
-      dark: images/logo-iris-dark.svg
+      path: images/logo.svg
+      dark: images/logo-dark.svg
       link: /iris.docs/
       width: 40
       height: 20
