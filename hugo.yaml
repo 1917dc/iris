@@ -1,5 +1,5 @@
 # Hugo configuration file
-title: My Site
+title: Íris Docs
 
 # import hextra as module
 module:
@@ -24,33 +24,35 @@ menu:
     - name: About
       pageRef: /about
       weight: 2
-    - name: Contact ↗
-      url: "https://github.com/imfing"
-      weight: 3
     - name: Search
       weight: 4
       params:
         type: search
     - name: GitHub
       weight: 5
-      url: "https://github.com/imfing/hextra-starter-template"
+      url: "https://github.com/1917dc/iris"
       params:
         icon: github
-    - name: Twitter
-      weight: 6
-      url: "https://twitter.com/"
-      params:
-        icon: x-twitter
 
 params:
   navbar:
     displayTitle: true
-    displayLogo: false
+    displayLogo: true
+    logo:
+      path: images/logo-iris.svg
+      dark: images/logo-iris-dark.svg
+      link: /
+      width: 40
+      height: 20
+  theme:
+  # light | dark | system
+    default: system
+    displayToggle: true
 
   footer:
-    displayCopyright: false
+    displayCopyright: true
     displayPoweredBy: true
 
   editURL:
-    enable: true
+    enable: false
     base: "https://github.com/imfing/hextra-starter-template/edit/main/content"
