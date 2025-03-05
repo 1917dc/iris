@@ -41,7 +41,7 @@ params:
     logo:
       path: images/logo-iris.svg
       dark: images/logo-iris-dark.svg
-      link: /
+      link: /iris.docs/
       width: 40
       height: 20
   theme:
