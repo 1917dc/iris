@@ -7,4 +7,4 @@ sidebar:
   open: true
 ---
 
-Esse agrupamento de páginas contém toda a documentação necessária para desenvolvimento, tanto do front-end como do back-end.
+Esse agrupamento de páginas contém toda a documentação necessária para desenvolvimento, tanto do `frontend` como do `backend`.
