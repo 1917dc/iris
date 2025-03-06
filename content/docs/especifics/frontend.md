@@ -1,5 +1,5 @@
 ---
-title: Leaf Page
+title: Front-end
 type: docs
 prev: docs/folder/
 ---

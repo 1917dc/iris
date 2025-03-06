@@ -13,7 +13,7 @@ Inicialmente criado para a instituição `CEDLAN`, localizada no Lago Norte, o p
 - [Leonardo Brito](https://github.com/D0ntP4nic42)
 - [Breno Amorim](https://github.com/brenoakese)
 
-## Stack
+## Tecnologias
 ### Frontend
 - [SvelteKit](https://svelte.dev/)
 - [Tailwind](https://tailwindcss.com/)
