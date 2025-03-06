@@ -47,16 +47,16 @@ Após isso, você deve ter a versão estável mais atual do Node, e deve ser cap
 
 #### Distribuições baseadas em Ubuntu
 
-##### Pré-requisitos de instalação
+##### 1.1 Pré-requisitos de instalação
 ```bash
 sudo apt update
 sudo apt install apt-transport-https ca-certificates curl gnupg
 ```
-##### Adicionar a chave GPG oficial do Docker
+##### 1.2 Adicionar a chave GPG oficial do Docker
 ```bash
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker.gpg
 ```
-##### Adicionar o repositório Docker no sistema
+##### 1.3 Adicionar o repositório Docker no sistema
 - **Ubuntu 22**:
 ```bash
 echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu noble stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
@@ -66,11 +66,11 @@ echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/docke
 echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu jammy stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
 ```
 
-##### Atualização de pacotes
+##### 1.4 Atualização de pacotes
 ```bash
 sudo apt update
 ```
-##### Instalação do Docker
+##### 1.5 Instalação do Docker
 ```bash
 sudo apt install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 ```
@@ -82,7 +82,7 @@ sudo pacman -S docker
 
 #### Pós instalação
 
-Verifique a instalação:
+##### 1.1 Verifique a instalação
 
 ```bash
 sudo docker run hello-world
@@ -92,7 +92,7 @@ sudo docker run hello-world
 Hello from Docker!
 ```
 
-Removendo a necessidade do `sudo` para execução de comandos Docker:
+##### 1.2 Removendo a necessidade do `sudo` para execução de comandos Docker
 ```bash
 sudo usermod -aG docker ${USER}
 ```
