@@ -5,20 +5,16 @@ prev: /
 next: docs/folder/
 ---
 
-> [!IMPORTANT]
-> Antes de tentar rodar ou editar o projeto, certifique-se de ter todas as dependências necessárias!
-
-## Dependências para o front-end
-
-### NVM (Node Version Manager)
-
-#### NVM - Windows
+# Frontend
+## NVM (Node Version Manager)
+### Windows
 - [Download](https://github.com/coreybutler/nvm/releases)
 > [!TIP]
 > Reinicie seu PowerShell após a instalação, caso o NVM não esteja sendo identificado.
 
 <br>Em caso de bugs relacionados a instalação, recorra à documentação oficial: [NVM Windows](https://github.com/coreybutler/nvm-windows)
-#### NVM - Linux
+
+### Linux
 ```bash
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.1/install.sh | bash
 ```
@@ -33,20 +29,21 @@ nvm install node
 ```
 Após isso, você deve ter a versão estável mais atual do Node, e deve ser capaz de rodar os comandos relacionados ao [npm](https://www.npmjs.com/).
 
-## Dependências para o back-end
+# Backend
 
 > [!WARNING]
 > Para evitar problemas locais rodando o back-end, sempre opte por rodar o projeto [`dockerizado`](https://www.reddit.com/r/Frontend/comments/yvem0t/comment/iwe0mma/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button).
 > IDE's de Java costumam baixar a JDK automaticamente quando rodamos o projeto, então não se vê necessário mostrar o processo de instalação da JDK, só se certifique de estar utilizando a versão 21.
 
-### Docker - Windows
+## Docker
+### Windows
 [Docker Desktop - Windows](https://docs.docker.com/desktop/setup/install/windows-install/)
 
 > [!TIP]
 > Você também pode rodar o projeto utilizando [WSL 2](https://learn.microsoft.com/pt-br/windows/wsl/install). WSL é um sistema Linux emulado dentro da sua máquina Windows. 
 > Caso escolha essa forma, siga o passo-a-passo da seção de Linux.
 
-### Docker - Linux
+### Linux
 
 #### Distribuições baseadas em Ubuntu
 
@@ -60,11 +57,11 @@ sudo apt install apt-transport-https ca-certificates curl gnupg
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker.gpg
 ```
 ##### Adicionar o repositório Docker no sistema
-- Ubuntu 22:
+- **Ubuntu 22**:
 ```bash
 echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu noble stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
 ```
-- Ubuntu 21:
+- **Ubuntu 21**:
 ```bash
 echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu jammy stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
 ```

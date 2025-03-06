@@ -1,5 +1,5 @@
 ---
-title: Front-end
+title: Frontend
 type: docs
 prev: docs/folder/
 ---
