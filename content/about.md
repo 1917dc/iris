@@ -19,7 +19,7 @@ Inicialmente criado para a instituição `CEDLAN`, localizada no Lago Norte, o p
 - [Tailwind](https://tailwindcss.com/)
 - [DaisyUI](https://daisyui.com/)
 - [TypeScript](https://www.typescriptlang.org/)
-### Versioning
+### Versionamento
 - [Docker](https://www.docker.com/)
 - [Git](https://git-scm.com/)
 ### Backend
