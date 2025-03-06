@@ -6,7 +6,7 @@ next: docs/folder/
 ---
 
 # Frontend
-## NVM (Node Version Manager)
+## NVM
 ### Windows
 - [Download](https://github.com/coreybutler/nvm/releases)
 > [!TIP]
