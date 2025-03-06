@@ -26,8 +26,9 @@ export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || pr
 #### Instalação do Node
 ```bash
 nvm install node
-```
-Após isso, você deve ter a versão estável mais atual do Node, e deve ser capaz de rodar os comandos relacionados ao [npm](https://www.npmjs.com/).
+``` 
+> [!NOTE]
+> Após isso, você deve ter a versão estável mais atual do Node, e deve ser capaz de rodar os comandos relacionados ao [npm](https://www.npmjs.com/).
 
 ## Backend
 
@@ -37,7 +38,7 @@ Após isso, você deve ter a versão estável mais atual do Node, e deve ser cap
 
 ### Docker
 #### Windows
-[Docker Desktop - Windows](https://docs.docker.com/desktop/setup/install/windows-install/)
+[Docker Desktop](https://docs.docker.com/desktop/setup/install/windows-install/)
 
 > [!TIP]
 > Você também pode rodar o projeto utilizando [WSL 2](https://learn.microsoft.com/pt-br/windows/wsl/install). WSL é um sistema Linux emulado dentro da sua máquina Windows. 
@@ -87,11 +88,11 @@ sudo pacman -S docker
 ```bash
 sudo docker run hello-world
 ```
-- O output deve conter:
-```bash
-Hello from Docker!
-```
-
+> [!NOTE]
+> O output deve conter:
+> ```bash
+> Hello from Docker!
+> ```
 ###### 1.2 Removendo a necessidade do `sudo` para execução de comandos Docker
 ```bash
 sudo usermod -aG docker ${USER}
