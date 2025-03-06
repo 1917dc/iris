@@ -81,6 +81,12 @@ sudo apt install docker-ce docker-ce-cli containerd.io docker-buildx-plugin dock
 sudo pacman -S docker
 ```
 
+##### Distribuições não citadas
+
+Distribuições menos utilizadas pela massa de usuários:
+- [Debian](https://docs.docker.com/desktop/setup/install/linux/debian/)
+- [Fedora](https://docs.docker.com/desktop/setup/install/linux/fedora/)
+
 ##### Pós instalação
 
 ###### 1.1 Verifique a instalação
