@@ -3,7 +3,7 @@ title: Íris
 toc: false
 ---
 
-## Explore
+## Páginas
 
 {{< cards >}}
   {{< card link="docs" title="Docs" icon="book-open" >}}
