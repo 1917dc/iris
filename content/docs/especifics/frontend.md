@@ -63,7 +63,7 @@ iris/
 #### +error.svelte
 - É a página que o usuário vai ser direcionado quando algum erro que impeça a aplicação de funcionar corretamente for detectado; na nossa aplicação estamos usando o `+error.svelte` para usufuir de funções do próprio Svelte.
 #### hooks.server.ts
-- Os hooks são funcções declaradas que o Svelte Kit vai chamar toda vez em eventos específicos da aplicação. 
+- Os hooks são funções declaradas que o Svelte Kit vai chamar toda vez em eventos específicos da aplicação. 
 - O `hooks.server.ts` tem uma função chamada `handle` que é chamada toda vez em que uma requisição é feita, geralmente antes da renderização da página, á partir disso a resposta de todos os outros servidores da aplicação vão ser determinadas.
 
 **Trecho de código da própria aplicação:**
