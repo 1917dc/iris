@@ -60,7 +60,7 @@ iris/
 ```
 ##### server
 - Contém os arquivos da **lib** que só devem existir na parte `server side` da aplicação, coloque os arquivos que devem ser reaproveitados pelos servidores de rotas aqui.
-##### +error.svelte
+#### +error.svelte
 - É a página que o usuário vai ser direcionado quando algum erro que impeça a aplicação de funcionar corretamente for detectado; na nossa aplicação estamos usando o `+error.svelte` para usufuir de funções do próprio Svelte.
 #### hooks.server.ts
 - Os hooks são funcções declaradas que o Svelte Kit vai chamar toda vez em eventos específicos da aplicação. 
