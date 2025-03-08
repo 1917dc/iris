@@ -4,7 +4,7 @@ title: " Docs | Iris"
 # import hextra as module
 module:
   imports:
-  - path: github.com/imfing/hextra
+    - path: github.com/imfing/hextra
 
 markup:
   # allow raw html
@@ -30,7 +30,7 @@ menu:
         type: search
     - name: GitHub
       weight: 5
-      url: "https://github.com/1917dc/iris"
+      url: "https://github.com/1917dc/iris.frontend"
       params:
         icon: github
 
@@ -45,7 +45,7 @@ params:
       width: 40
       height: 20
   theme:
-  # light | dark | system
+    # light | dark | system
     default: system
     displayToggle: true
 
