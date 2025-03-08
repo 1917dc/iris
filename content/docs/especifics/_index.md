@@ -1,5 +1,5 @@
 ---
-title: 1.1 Documentação
+title: 2 - Documentação
 type: docs
 prev: docs/first-page
 next: docs/folder/especifics

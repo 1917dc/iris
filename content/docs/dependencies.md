@@ -1,5 +1,5 @@
 ---
-title: 1.0 Dependências
+title: 1 - Dependências
 type: docs
 prev: /
 next: docs/folder/
