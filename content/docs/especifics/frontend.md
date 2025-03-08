@@ -34,7 +34,7 @@ iris/
 │ │ └ [your param matchers]
 │ ├ routes/
 │ │ └ [your routes]
-│   └ +error.svelte
+│ │ └ +error.svelte
 │ ├ app.html
 │ ├ hooks.client.ts
 │ ├ hooks.server.ts
